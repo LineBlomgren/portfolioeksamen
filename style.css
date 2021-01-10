@@ -154,6 +154,7 @@ a {
 
 /*Billeder/illustrationer*/
 .om_mig_billede {
+    border: 3px solid white;
     height: 100%;
     width: 100%;
     border-radius: 400px;
@@ -220,9 +221,9 @@ width: 50px;
 #first_section_index {
     margin: 0vw;
     overflow: hidden;
-    background-image: url(billeder/blobs_billede.jpg);
+    background-image: url(billeder/malerklatter2.jpg);
     background-size: cover;
-    background-position: 10%;
+    background-position: 40%;
     margin-bottom: 0vw;
 }
 
@@ -231,15 +232,15 @@ width: 50px;
 }
 
 #first_section_index h1 {
-    opacity: 80%;
+    /*    opacity: 80%;*/
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 40vw;
-    background-color: #3c0d2d;
+    bottom: 15vw;
+    /*    background-color: #3c0d2d;*/
     border-radius: 50px;
-    font-size: 12vw;
-    color: white;
+    font-size: 15vw;
+    /*    color: white;*/
 }
 
 #second_section_index a {
@@ -254,28 +255,51 @@ width: 50px;
     align-items: center;
     width: 50vw;
     height: 10vw;
-    background-color: #fcb3ff;
+    background-color: #e089f0;
     text-align: center;
     border-radius: 50px;
     position: relative;
-    bottom: 75vw;
-    left: 33vw;
+    bottom: 65vw;
+    /*    left: 33vw;*/
 }
 
 #second_section_index p:hover {
-    background-color: #e089f0;
+    background-color: #ffb2f9;
 }
 
 #second_section_index a:hover {
     color: white;
 }
 
-/*"Portfolio"-side*/
-#second_section_portfolio #section_wrapper {
+/*"Om mig"-side*/
+#first_section_om_mig {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter4.jpg);
+    background-size: cover;
+    background-position: 20%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+}
+
+
+/*"Projekt"-side*/
+
+#first_section_projekter {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter5.jpg);
+    background-size: cover;
+    background-position: 75%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+}
+
+#second_section_projekter #section_wrapper {
     margin: 0vw;
 }
 
-#second_section_portfolio {
+#second_section_projekter {
     margin: 0;
     padding: 0vw;
     margin-top: 0vw;
@@ -290,7 +314,8 @@ figure a {
 }
 
 figcaption {
-    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     bottom: 150px;
     background-color: #e089f0;
@@ -334,6 +359,16 @@ figure img:hover {
 }
 
 /*"Indhold"-side*/
+#first_section_indhold {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter4.jpg);
+    background-size: cover;
+    background-position: 20%;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+}
+
 #first_section_indhold .indhold_billede1 {
     margin-top: 10vw;
 }
@@ -343,6 +378,14 @@ figure img:hover {
 }
 
 /*"Animation"-side*/
+#first_section_animation {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter4.jpg);
+    background-size: cover;
+    background-position: 25%;
+}
+
 #first_section_animation .animation_billede1 {
     margin-top: 10vw;
 }
@@ -352,11 +395,27 @@ figure img:hover {
 }
 
 /*"UX"-side*/
+#first_section_ux {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter4.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+
 #first_section_ux .ux_billede1 {
     margin-top: 10vw;
 }
 
 /*"Web"-side*/
+#first_section_web {
+    margin: 0vw;
+    overflow: hidden;
+    background-image: url(billeder/malerklatter4.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+
 #first_section_web .web_billede1 {
     margin-top: 10vw;
 }
@@ -378,7 +437,7 @@ figure img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e089f0;
+    background-color: #e089f0;
     border-radius: 50px;
     width: 70vw;
     height: 9vw;
@@ -387,7 +446,7 @@ figure img:hover {
 }
 
 .klik_videre_knap:hover {
-    opacity: 70%;
+    background-color: #ffb2f9;
 }
 
 .klik_videre_knap a {
@@ -500,15 +559,15 @@ figure img:hover {
     }
 
     #first_section_index h1 {
-        font-size: 8vw;
+        font-size: 6vw;
         display: flex;
         position: relative;
-        bottom: 39vw;
-        left: 40vw;
+        bottom: 40vw;
+        left: 20vw;
         justify-content: center;
         align-items: center;
-        height: 10vw;
-        width: 50vw;
+        height: 7vw;
+        width: 40vw;
         border-radius: 100px;
     }
 
@@ -519,10 +578,10 @@ figure img:hover {
 
     #second_section_index p {
         position: relative;
-        bottom: 20vw;
-        left: -15vw;
-        height: 5vw;
-        width: 25vw;
+        bottom: 28vw;
+        left: -48.5vw;
+        height: 3vw;
+        width: 20vw;
         font-size: 2vw;
     }
 
@@ -544,8 +603,8 @@ figure img:hover {
         grid-row: 1/2;
     }
 
-    /*"Portfolio"-side*/
-    #second_section_portfolio p {
+    /*"Projekter"-side*/
+    #second_section_projekter p {
         margin-top: 4vw;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -556,15 +615,15 @@ figure img:hover {
         width: 384px;
     }
 
-    #second_section_portfolio {
+    #second_section_projekter {
         margin-bottom: 0vw;
     }
 
-    #second_section_portfolio a {
+    #second_section_projekter a {
         width: 384px;
     }
 
-    #second_section_portfolio .row {
+    #second_section_projekter .row {
         display: flex;
         gap: 45px;
         justify-content: center;
