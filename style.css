@@ -260,7 +260,6 @@ width: 50px;
     border-radius: 50px;
     position: relative;
     bottom: 65vw;
-    /*    left: 33vw;*/
 }
 
 #second_section_index p:hover {
@@ -590,6 +589,7 @@ figure img:hover {
         margin-top: 100px;
         height: 1031px;
         width: 772.8px;
+        border: 4px solid white;
     }
 
     #first_section_om_mig #section_wrapper {
@@ -755,6 +755,8 @@ figure img:hover {
     }
 
     .klik_videre_knap {
+        position: relative;
+        left: 10vw;
         width: 25vw;
         height: 3vw;
         margin-bottom: 10vw;
